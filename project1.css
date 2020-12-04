@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(img/burgers.jpg);
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;;
+    
+}
+.left{
+   /* border: 2px solid red; */
+   display: inline-block;
+   position: absolute;
+   left: 34px;
+   top: 18px;
+   
+}
+.mid{
+    /* border: 2px solid green; */
+    display: block;
+    width: 40%;
+    margin: 18px auto;
+}
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 22px; 
+}
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(207, 138, 187);
+}
+.left img{
+    width: 140px;
+    border-radius: 23px;
+}
+.left div{
+    text-align: center;
+    font-size: 58px;
+    line-height: 58px;
+    color: rgb(146, 15, 58);
+    background-color: lightcoral;
+}
+.btn{
+    margin: 0px 9px;
+    color: rgb(219, 30, 30);
+    background-color: rgb(31, 30, 29);
+    padding: 4px 14px;
+    border: 2px solid rgb(36, 3, 20);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(245, 222, 16);
+}
+.container{
+    /* border: 2px solid greenyellow; */
+    margin: 150px 31px;
+    padding: 75px;
+    width: 30%;
+    /* border-radius: 28px; */
+}
+.btn1{
+    margin: 2px 2px;
+    padding: 7px 11px;
+    border: 2px solid salmon;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    border-radius: 17px;
+    display: block;
+    width: 101%;
+    margin: auto;
+}
+.formg input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid red;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 17px;
+}
+.container h1{
+    text-align: center;
+    color:white;
+}
+  .footer{
+     position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 1, 1);
+    color: white;
+    text-align: center;
+}  
+.service{
+    border: 2px solid rebeccapurple;
+    float: right;
+    background-color: rgb(0,0,0,0.5);;
+    width: 50%;
+    margin-top: -700px;
+    
+}
